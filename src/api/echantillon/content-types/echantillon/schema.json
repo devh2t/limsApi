@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "echantillons",
+  "info": {
+    "singularName": "echantillon",
+    "pluralName": "echantillons",
+    "displayName": "echantillon",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "region": {
+      "type": "enumeration",
+      "enum": [
+        "Casablanca-Settat",
+        "Marrakech-Safi",
+        "Rabat-Salé-Kénitra",
+        "Tanger-Tétouan-Al Hoceïma",
+        "Fès-Meknès",
+        "Souss-Massa",
+        "Béni Mellal-Khénifra",
+        "Drâa-Tafilalet",
+        "Laâyoune-Sakia El Hamra",
+        "Guelmim-Oued Noun",
+        "Dakhla-Oued Ed Dahab",
+        "L'Oriental"
+      ]
+    },
+    "id_labo": {
+      "type": "uid"
+    },
+    "client": {
+      "type": "string"
+    },
+    "province": {
+      "type": "string"
+    },
+    "commune": {
+      "type": "string"
+    },
+    "prestation": {
+      "type": "enumeration",
+      "enum": [
+        "interne",
+        "externe"
+      ]
+    },
+    "preleveur": {
+      "type": "string"
+    },
+    "date_prelevement": {
+      "type": "date"
+    },
+    "date_edition": {
+      "type": "date"
+    },
+    "date_fin_analyse": {
+      "type": "date"
+    },
+    "date_reception": {
+      "type": "date"
+    },
+    "culture": {
+      "type": "string"
+    },
+    "ref": {
+      "type": "uid"
+    },
+    "H": {
+      "type": "string"
+    },
+    "gpsX": {
+      "type": "float"
+    },
+    "gpsY": {
+      "type": "float"
+    },
+    "parametre_sol": {
+      "type": "dynamiczone",
+      "components": [
+        "parametre-sol.parametre-sol"
+      ]
+    }
+  }
+}

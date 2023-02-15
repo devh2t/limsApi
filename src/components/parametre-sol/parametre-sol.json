@@ -1,0 +1,85 @@
+{
+  "collectionName": "components_parametre_sol_parametre_sols",
+  "info": {
+    "displayName": "parametre_sol",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "profondeur": {
+      "type": "float"
+    },
+    "humidite": {
+      "type": "string"
+    },
+    "CEC": {
+      "type": "string"
+    },
+    "K2O": {
+      "type": "float"
+    },
+    "P2O5": {
+      "type": "float"
+    },
+    "NT": {
+      "type": "float"
+    },
+    "P": {
+      "type": "float"
+    },
+    "K": {
+      "type": "float"
+    },
+    "EC": {
+      "type": "float"
+    },
+    "S04": {
+      "type": "float"
+    },
+    "CL": {
+      "type": "float"
+    },
+    "A": {
+      "type": "float"
+    },
+    "B": {
+      "type": "float"
+    },
+    "SG": {
+      "type": "float"
+    },
+    "SF": {
+      "type": "float"
+    },
+    "LG": {
+      "type": "float"
+    },
+    "LF": {
+      "type": "float"
+    },
+    "phEau": {
+      "type": "float"
+    },
+    "phKCI": {
+      "type": "float"
+    },
+    "MO": {
+      "type": "float"
+    },
+    "Fe": {
+      "type": "float"
+    },
+    "Mn": {
+      "type": "float"
+    },
+    "Zn": {
+      "type": "float"
+    },
+    "Cu": {
+      "type": "float"
+    },
+    "Na2o": {
+      "type": "float"
+    }
+  }
+}
